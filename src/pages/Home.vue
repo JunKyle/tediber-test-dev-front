@@ -1,54 +1,70 @@
 <template>
   <main class="Home">
-    <form v-if="product"
-          @submit="addToCart">
-      <template v-for="(option, index) in product.options">
-        <select v-model="formOptions[code + '-size']"
-                :key="index"
-                v-if="option.code.includes(code + '-size')">
-          <option v-for="(optionValue, index) in option.values"
-                  :value="optionValue.code"
+    <section class="Home__section">
+      <div class="Home__view">
+        <img class="Home__viewImage"
+             src="@/assets/static/images/slider.jpeg" />
+      </div>
+      <div class="Home__content"
+           v-if="product">
+        <h1 class="Home__title">{{ product.name }}</h1>
+        <ul class="Home__description">
+          <li>Canapé 2-3 places design et ultra confortable</li>
+          <li>Matériaux et design haut de gamme à un prix incomparable</li>
+          <li>Fabriqué en France et éco-conçu</li>
+          <li>Entretien facile, coussins déhoussables et lavables</li>
+        </ul>
+        <h2 class="Home__subtitle">Je paramètre mon canapé</h2>
+        <form @submit="addToCart">
+          <template v-for="(option, index) in product.options">
+            <select v-model="formOptions[code + '-size']"
+                    :key="index"
+                    v-if="option.code.includes(code + '-size')">
+              <option v-for="(optionValue, index) in option.values"
+                      :value="optionValue.code"
+                      :key="index">
+                {{ optionValue.value }}
+              </option>
+            </select>
+            <div v-if="option.code.includes(code + '-color')"
                   :key="index">
-            {{ optionValue.value }}
-          </option>
-        </select>
-        <div v-if="option.code.includes(code + '-color')"
-              :key="index">
-          <div v-for="(optionValue, index) in option.values"
-               :key="index">
-            <input type="radio" 
-                   :id="optionValue.code" 
-                   :value="optionValue.code" 
-                   v-model="formOptions[code + '-color']">
-            <label :for="optionValue.code">{{ optionValue.value }}</label>
-          </div>
-        </div>
-        <div v-if="option.code.includes(code + '-feet-form')"
-              :key="index">
-          <div v-for="(optionValue, index) in option.values"
-               :key="index">
-            <input type="radio" 
-                   :id="optionValue.code" 
-                   :value="optionValue.code" 
-                   v-model="formOptions[code + '-feet-form']">
-            <label :for="optionValue.code">{{ optionValue.value }}</label>
-          </div>
-        </div>
-        <div v-if="option.code.includes(code + '-feet-color')"
-              :key="index">
-          <div v-for="(optionValue, index) in option.values"
-               :key="index">
-            <input type="radio" 
-                   :id="optionValue.code" 
-                   :value="optionValue.code" 
-                   v-model="formOptions[code + '-feet-color']">
-            <label :for="optionValue.code">{{ optionValue.value }}</label>
-          </div>
-        </div>
-      </template>
-      <input type="submit"
-             value="Submit">
-    </form>
+              <div v-for="(optionValue, index) in option.values"
+                   :key="index">
+                <input type="radio" 
+                       :id="optionValue.code" 
+                       :value="optionValue.code" 
+                       v-model="formOptions[code + '-color']">
+                <label :for="optionValue.code">{{ optionValue.value }}</label>
+              </div>
+            </div>
+            <div v-if="option.code.includes(code + '-feet-form')"
+                  :key="index">
+              <div v-for="(optionValue, index) in option.values"
+                   :key="index">
+                <input type="radio" 
+                       :id="optionValue.code" 
+                       :value="optionValue.code" 
+                       v-model="formOptions[code + '-feet-form']">
+                <label :for="optionValue.code">{{ optionValue.value }}</label>
+              </div>
+            </div>
+            <div v-if="option.code.includes(code + '-feet-color')"
+                  :key="index">
+              <div v-for="(optionValue, index) in option.values"
+                   :key="index">
+                <input type="radio" 
+                       :id="optionValue.code" 
+                       :value="optionValue.code" 
+                       v-model="formOptions[code + '-feet-color']">
+                <label :for="optionValue.code">{{ optionValue.value }}</label>
+              </div>
+            </div>
+          </template>
+          <input type="submit"
+                 value="Submit">
+        </form>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -110,3 +126,27 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.Home {
+
+  &__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__view {
+
+    &Image {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    min-width: 30%;
+  }
+
+}
+</style>
