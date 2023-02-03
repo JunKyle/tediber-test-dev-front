@@ -1,0 +1,754 @@
+{
+   "code":"sofa-simple",
+   "name":"Le canapé",
+   "slug":"canape",
+   "variants":[
+      {
+         "code":"TEDSOFADUOBLEU_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Bleu profond, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_BLEU":"Bleu Profond",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_BLEU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-bleu"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOBLEU_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Bleu profond, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_BLEU":"Bleu Profond",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_BLEU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-bleu"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOBLEU_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Bleu profond, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_BLEU":"Bleu Profond",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_BLEU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-bleu"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOBLEU_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Bleu profond, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_BLEU":"Bleu Profond",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_BLEU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-bleu"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOECRU_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Ecru, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_ECRU":"Ecru",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_ECRU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-2-places",
+            "sat_canape-beige"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOECRU_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Ecru, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_ECRU":"Ecru",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_ECRU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-beige",
+            "sat_canape-3-places"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOECRU_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Ecru, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_ECRU":"Ecru",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_ECRU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-beige"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOECRU_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Ecru, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_ECRU":"Ecru",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_ECRU",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-beige"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOGRIS_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Gris, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_GRIS":"Gris Nuage",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_GRIS",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-gris"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOGRIS_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Gris, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_GRIS":"Gris Nuage",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_GRIS",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-gris"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOGRIS_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Gris, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_GRIS":"Gris Nuage",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_GRIS",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-gris"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOGRIS_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Gris, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_GRIS":"Gris Nuage",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_GRIS",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-gris"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOKAKI_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Vert kaki, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_KAKI":"Vert kaki",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_KAKI",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-kaki"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOKAKI_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Vert kaki, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_KAKI":"Vert kaki",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_KAKI",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-kaki"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOKAKI_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Vert kaki, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_KAKI":"Vert kaki",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_KAKI",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-kaki"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOKAKI_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Vert kaki, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_KAKI":"Vert kaki",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_KAKI",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-kaki"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOSAUG_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Vert sauge, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_VERT":"Vert sauge",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_VERT",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-vert"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOSAUG_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Vert sauge, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_VERT":"Vert sauge",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_VERT",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-vert"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOSAUG_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Vert sauge, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_VERT":"Vert sauge",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_VERT",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-vert"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOSAUG_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Vert sauge, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_VERT":"Vert sauge",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_VERT",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-vert"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOTERR_TEDPSOFCARRECL",
+         "name":"Le canapé 2 - 3 places - Terracotta, pieds carré bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_TERRACOTTA":"Terracotta",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_TERRACOTTA",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-terracotta"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOTERR_TEDPSOFCARREFO",
+         "name":"Le canapé 2 - 3 places - Terracotta, pieds carré bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_TERRACOTTA":"Terracotta",
+            "sofa-simple-feet-form_CARRE":"Carré",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_TERRACOTTA",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_CARRE",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-terracotta"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOTERR_TEDPSOFRONDCL",
+         "name":"Le canapé 2 - 3 places - Terracotta, pieds ronds bois clair",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_TERRACOTTA":"Terracotta",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_CLAIR":"Bois clair"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_TERRACOTTA",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_CLAIR"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-terracotta"
+         ]
+      },
+      {
+         "code":"TEDSOFADUOTERR_TEDPSOFRONDFO",
+         "name":"Le canapé 2 - 3 places - Terracotta, pieds ronds bois foncé",
+         "price":149000,
+         "ecotax":1350,
+         "optionValues":{
+            "sofa-simple-size_DUO":"2 - 3 places",
+            "sofa-simple-color_TERRACOTTA":"Terracotta",
+            "sofa-simple-feet-form_ROND":"Rond",
+            "sofa-simple-feet-color_FONCE":"Bois foncé"
+         },
+         "optionCodes":{
+            "sofa-simple-size":"sofa-simple-size_DUO",
+            "sofa-simple-color":"sofa-simple-color_TERRACOTTA",
+            "sofa-simple-feet-form":"sofa-simple-feet-form_ROND",
+            "sofa-simple-feet-color":"sofa-simple-feet-color_FONCE"
+         },
+         "optionTranslated":{
+            "sofa-simple-size":"Taille de canapé",
+            "sofa-simple-color":"Couleur tissu de canapé",
+            "sofa-simple-feet-form":"Forme de pieds de canapé",
+            "sofa-simple-feet-color":"Couleur de pieds de canapé"
+         },
+         "packs":[
+            "sat_canape-terracotta"
+         ]
+      }
+   ],
+   "options":[
+      {
+         "code":"sofa-simple-size",
+         "name":"Taille de canapé",
+         "defaultOptionValue":"sofa-simple-size_DUO",
+         "values":[
+            {
+               "code":"sofa-simple-size_DUO",
+               "value":"2 - 3 places",
+               "help":"Colis volumineux (203 x 105 x 65 cm), vérifiez votre cage d'escalier",
+               "optgroup":1
+            }
+         ]
+      },
+      {
+         "code":"sofa-simple-color",
+         "name":"Couleur tissu de canapé",
+         "defaultOptionValue":"sofa-simple-color_ECRU",
+         "values":[
+            {
+               "code":"sofa-simple-color_ECRU",
+               "value":"Ecru",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-color_GRIS",
+               "value":"Gris Nuage",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-color_BLEU",
+               "value":"Bleu Profond",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-color_VERT",
+               "value":"Vert sauge",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-color_KAKI",
+               "value":"Vert kaki",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-color_TERRACOTTA",
+               "value":"Terracotta",
+               "help":"",
+               "optgroup":1
+            }
+         ]
+      },
+      {
+         "code":"sofa-simple-feet-form",
+         "name":"Forme de pieds de canapé",
+         "defaultOptionValue":"sofa-simple-feet-form_CARRE",
+         "values":[
+            {
+               "code":"sofa-simple-feet-form_ROND",
+               "value":"Rond",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-feet-form_CARRE",
+               "value":"Carré",
+               "help":"",
+               "optgroup":1
+            }
+         ]
+      },
+      {
+         "code":"sofa-simple-feet-color",
+         "name":"Couleur de pieds de canapé",
+         "defaultOptionValue":"sofa-simple-feet-color_CLAIR",
+         "values":[
+            {
+               "code":"sofa-simple-feet-color_CLAIR",
+               "value":"Bois clair",
+               "help":"",
+               "optgroup":1
+            },
+            {
+               "code":"sofa-simple-feet-color_FONCE",
+               "value":"Bois foncé",
+               "help":"",
+               "optgroup":1
+            }
+         ]
+      }
+   ],
+   "lowerPrice":149000
+}
