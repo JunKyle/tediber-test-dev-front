@@ -168,17 +168,30 @@ export default {
 
 <style lang="scss" scoped>
 .Home {
-  margin: 20px 0 150px;
+  margin: 20px 0;
 
   &__section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 
   &__view {
-    flex: 2 1 0;
+    flex: 2 1 0;    
+    position: sticky;
+    top: 0;
+    max-height: 80vh;
 
     &Image {
       width: 100%;
@@ -188,15 +201,7 @@ export default {
   &__content {
     flex: 1 1 0;
     margin: 0 10px;
-    height: 100vh;
-    overflow: scroll;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    padding-bottom: 300px;
   }
 
   &__title {
