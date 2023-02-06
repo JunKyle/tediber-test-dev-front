@@ -1,10 +1,7 @@
 @import './config/index.scss';
-//@import './mixins/index.scss';
 
-// BASE
-// @each $key, $value in $fonts {
-//    @include fontimport($value);
-//}
+// ATOMS
+@import './atoms/_button.scss';
 
 // MOLECULES
 @import './molecules/_radiobutton.scss';

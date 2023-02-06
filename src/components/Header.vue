@@ -15,6 +15,7 @@ export default {
     background-color: $color-dark-blue;
     color: $color-white;
     width: 100%;
-    height: 30vh;
+    height: 20vh;
+    text-align: center;
   }
 </style>

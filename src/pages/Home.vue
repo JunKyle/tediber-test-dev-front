@@ -15,16 +15,16 @@
           <li class="Home__descriptionItem">Entretien facile, coussins déhoussables et lavables</li>
         </ul>
         <h2 class="Home__subtitle">Je paramètre mon canapé</h2>
-        <form class="Form"
+        <form class="form"
               @submit="addToCart">
           <template v-for="(option, index) in product.options">
-            <div class="Form__section"
+            <div class="form__section"
                  :key="index">
-              <div class="Form__title">
-                <span class="Form__titleNumber">{{index + 1}}</span>
-                <h3 class="Form__titleLabel">{{option.name}}</h3>
+              <div class="form__title">
+                <span class="form__titleNumber">{{index + 1}}</span>
+                <h3 class="form__titleLabel">{{option.name}}</h3>
               </div>
-              <div class="Form__input"
+              <div class="form__input"
                    v-if="option.code.includes(code + '-size')">
                 <select v-model="formOptions[code + '-size']">
                   <option v-for="(optionValue, index) in option.values"
@@ -35,61 +35,61 @@
                 </select>
               </div>
               <template v-if="option.code.includes(code + '-color')">
-                <div class="Form__input Form__input--grid3">
-                  <div class="RadioButton"
+                <div class="form__input form__input--grid3">
+                  <div class="radioButton"
                        v-for="(optionValue, index) in option.values"
                        :key="index">
-                    <input class="RadioButton__input"
+                    <input class="radioButton__input"
                            type="radio" 
                            :id="optionValue.code" 
                            :value="optionValue.code" 
                            v-model="formOptions[code + '-color']">
-                    <span class="RadioButton__color"
-                          :class="'RadioButton__color--' + optionValue.value.replace(' ', '')"></span>
-                    <label class="RadioButton__label"
+                    <span class="radioButton__color"
+                          :class="'radioButton__color--' + optionValue.value.replace(' ', '')"></span>
+                    <label class="radioButton__label"
                            :for="optionValue.code">{{ optionValue.value }}</label>
                   </div>
                 </div>
               </template>
               <template v-if="option.code.includes(code + '-feet-form')">
-                <span class="Form__info"><i class="fa fa-info-circle"></i>Les pieds mesurent 12 cm de hauteur</span>
-                <div class="Form__input Form__input--grid2">
-                  <div class="RadioButton RadioButton--square"
+                <span class="form__info"><i class="fa fa-info-circle"></i>Les pieds mesurent 12 cm de hauteur</span>
+                <div class="form__input form__input--grid2">
+                  <div class="radioButton radioButton--square"
                        v-for="(optionValue, index) in option.values"
                        :key="index">
-                    <input class="RadioButton__input"
+                    <input class="radioButton__input"
                            type="radio" 
                            :id="optionValue.code" 
                            :value="optionValue.code" 
                            v-model="formOptions[code + '-feet-form']">
-                    <img class="RadioButton__image"
+                    <img class="radioButton__image"
                          :src="getImageOption(optionValue)" />
-                    <label class="RadioButton__label"
+                    <label class="radioButton__label"
                            :for="optionValue.code">{{ optionValue.value }}</label>
                   </div>
                 </div>
               </template>
               <template v-if="option.code.includes(code + '-feet-color')">
-                <div class="Form__input Form__input--grid3">
-                  <div class="RadioButton"
+                <div class="form__input form__input--grid3">
+                  <div class="radioButton"
                        v-for="(optionValue, index) in option.values"
                        :key="index">
-                    <input class="RadioButton__input"
+                    <input class="radioButton__input"
                            type="radio" 
                            :id="optionValue.code" 
                            :value="optionValue.code" 
                            v-model="formOptions[code + '-feet-color']">
-                    <img class="RadioButton__image"
+                    <img class="radioButton__image"
                          :src="getImageOption(optionValue)" />
-                    <label class="RadioButton__label"
+                    <label class="radioButton__label"
                            :for="optionValue.code">{{ optionValue.value }}</label>
                   </div>
                 </div>
               </template>
             </div>
           </template>
-          <span class="Form__price">{{productVariantPrice}}</span>
-          <input class="Form__submit" 
+          <span class="form__price">{{productVariantPrice}}</span>
+          <input class="button button--yellow" 
                  type="submit"
                  value="Ajouter au panier">
         </form>
@@ -168,7 +168,7 @@ export default {
 
 <style lang="scss" scoped>
 .Home {
-  margin: 20px 0;
+  margin: $span-vr 0;
 
   &__section {
     display: flex;
@@ -200,7 +200,7 @@ export default {
 
   &__content {
     flex: 1 1 0;
-    margin: 0 10px;
+    margin: 0 $span-hr-small;
     padding-bottom: 300px;
   }
 
@@ -208,6 +208,7 @@ export default {
     margin: 0;
     color: $color-dark-blue;
     font-size: 26px;
+    text-align: center;
   }
 
   &__description {
@@ -218,7 +219,7 @@ export default {
     background-color: $color-grey1;
     color: $color-dark-blue;
     font-size: 10px;
-    padding: 15px 25px;
+    padding: $span-vr-small $span-hr-large;
 
     &Item {
       text-align: left;
@@ -226,10 +227,16 @@ export default {
   }
 
   &__subtitle {
-    border-top: 1px solid $color-black;
-    padding: 20px 0;
+    border-top: 1px solid $color-dark-blue;
+    padding: $span-vr 0;
+    margin: 0 $span-hr;
     color: $color-dark-blue;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .Form {
+    margin: 0 $span-hr;
   }
 }
 </style>

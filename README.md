@@ -15,17 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-
-# Objectif
+### Objectif
 
 Le but de ce test est de reproduire la maquette jointe afin de tester vos connaissances techniques mais surtout la façon dont vous appréhendez un projet.
 Vous devez utiliser le mock API fournie pour peupler dynamiquement la page et créer un sélecteur fonctionnel.
@@ -34,25 +24,25 @@ Le sélecteur doit faire au maximum 100vh de hauteur, la partie droite doit donc
 
 Vous devez faire l'intégration de la maquette desktop uniquement (1280px et plus), le header et footer peuvent être des images, pas besoin d'en faire l'intégration.
 
-# Pré-requis
+### Pré-requis
 
 - Utilisez VueJS (ou un framework utilisant VueJS)
 - Utilisez les données APIs fournies, certaines informations peuvent légèrement différer de la maquettes (notamment le prix)
 - Le sélecteur a pour vocation à être envoyé au backend lors du clic sur le bouton "Ajouter au panier", il faudra donc prévoir le payload simple indiquant le code du produit correspondant à la sélection faite sur le sélecteur (libre à vous sur le format).
 - Le rendu doit inclure le code source et un moyen de voir le résultat (hébergement, commande de build, etc.)
 
-# API
+### API
 
 - l'API renvoie le produit canapé, dont le code est "sofa-simple"
 - Les différentes combinaisons possibles sont des variants
 - Les différentes options sont dans options
 
-# En bonus
+### En bonus
 
 - La page ne doit pas être responsive, mais vous pouvez réflechir à la version mobile, nous échangerons à ce sujet lors de l'entretien.
 - Vous êtes libre de modifier la mise en page si vous estimez que cela est pertinent.
 
-# Notes
+### Notes
 
 - Cette maquette existe déjà sur le site et votre code ne sera pas utilisé
 - Vous pouvez utiliser les images et textes fournis

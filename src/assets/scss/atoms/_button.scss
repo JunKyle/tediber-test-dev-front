@@ -1,0 +1,19 @@
+.button {
+	background-color: $color-black;
+	width: 100%;
+	color: $color-white;
+	font-size: 12px;
+	line-height: 30px;
+	text-transform: uppercase;
+	border: none;
+	margin-top: $span-vr-small;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&--yellow {
+		background-color: $color-yellow;
+		color: $color-white;
+	}
+}

@@ -22,11 +22,21 @@ export default {
 </script>
 
 <style>
+html {
+  font-family: Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body, html {
+  height: 100%;
+  background-color: #FFFFFF;
+  margin: 0;
+  overflow: auto;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  position: relative;
+  height: auto;
 }
 </style>

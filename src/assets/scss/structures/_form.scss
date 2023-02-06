@@ -1,4 +1,4 @@
-.Form {
+.form {
 	
 	&__title {
 		display: flex;
@@ -14,6 +14,7 @@
 			background-color: $color-dark-blue;
 			font-size: 8px;
 			line-height: 16px;
+			text-align: center;
 		}
 
 		&Label {
@@ -29,11 +30,13 @@
 	&__input {
 		border-left: 1px solid $color-dark-blue;    
 		margin: 0 7px;
-		padding: 15px;
+		padding: $span-hr-small;
 
 		select {
 			width: 100%;
 			height: 30px;
+			color: $color-dark-blue;
+    		border-color: $color-dark-blue;
 		}
 
 		&--grid2 {
@@ -59,7 +62,7 @@
     	line-height: 30px;
     	text-transform: uppercase;
     	border: none;
-    	margin-top: 15px;
+    	margin-top: $span-vr-small;
 
     	&:hover {
     		cursor: pointer;
@@ -72,8 +75,9 @@
 	    font-size: 18px;
 		width: 100%;
 		display: block;
-    	margin: 15px 0;
-    	padding-top: 15px;
+    	margin: $span-vr-small 0;
+    	padding-top: $span-vr-small;
+    	text-align: center;
 	}
 
 	&__info {
