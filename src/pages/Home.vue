@@ -3,65 +3,95 @@
     <section class="Home__section">
       <div class="Home__view">
         <img class="Home__viewImage"
-             src="@/assets/static/images/slider.jpeg" />
+             src="/images/slider.jpeg" />
       </div>
       <div class="Home__content"
            v-if="product">
         <h1 class="Home__title">{{ product.name }}</h1>
         <ul class="Home__description">
-          <li>Canapé 2-3 places design et ultra confortable</li>
-          <li>Matériaux et design haut de gamme à un prix incomparable</li>
-          <li>Fabriqué en France et éco-conçu</li>
-          <li>Entretien facile, coussins déhoussables et lavables</li>
+          <li class="Home__descriptionItem">Canapé 2-3 places design et ultra confortable</li>
+          <li class="Home__descriptionItem">Matériaux et design haut de gamme à un prix incomparable</li>
+          <li class="Home__descriptionItem">Fabriqué en France et éco-conçu</li>
+          <li class="Home__descriptionItem">Entretien facile, coussins déhoussables et lavables</li>
         </ul>
         <h2 class="Home__subtitle">Je paramètre mon canapé</h2>
-        <form @submit="addToCart">
+        <form class="Form"
+              @submit="addToCart">
           <template v-for="(option, index) in product.options">
-            <select v-model="formOptions[code + '-size']"
-                    :key="index"
-                    v-if="option.code.includes(code + '-size')">
-              <option v-for="(optionValue, index) in option.values"
-                      :value="optionValue.code"
-                      :key="index">
-                {{ optionValue.value }}
-              </option>
-            </select>
-            <div v-if="option.code.includes(code + '-color')"
-                  :key="index">
-              <div v-for="(optionValue, index) in option.values"
-                   :key="index">
-                <input type="radio" 
-                       :id="optionValue.code" 
-                       :value="optionValue.code" 
-                       v-model="formOptions[code + '-color']">
-                <label :for="optionValue.code">{{ optionValue.value }}</label>
+            <div class="Form__section"
+                 :key="index">
+              <div class="Form__title">
+                <span class="Form__titleNumber">{{index + 1}}</span>
+                <h3 class="Form__titleLabel">{{option.name}}</h3>
               </div>
-            </div>
-            <div v-if="option.code.includes(code + '-feet-form')"
-                  :key="index">
-              <div v-for="(optionValue, index) in option.values"
-                   :key="index">
-                <input type="radio" 
-                       :id="optionValue.code" 
-                       :value="optionValue.code" 
-                       v-model="formOptions[code + '-feet-form']">
-                <label :for="optionValue.code">{{ optionValue.value }}</label>
+              <div class="Form__input"
+                   v-if="option.code.includes(code + '-size')">
+                <select v-model="formOptions[code + '-size']">
+                  <option v-for="(optionValue, index) in option.values"
+                          :value="optionValue.code"
+                          :key="index">
+                    {{ optionValue.value }}
+                  </option>
+                </select>
               </div>
-            </div>
-            <div v-if="option.code.includes(code + '-feet-color')"
-                  :key="index">
-              <div v-for="(optionValue, index) in option.values"
-                   :key="index">
-                <input type="radio" 
-                       :id="optionValue.code" 
-                       :value="optionValue.code" 
-                       v-model="formOptions[code + '-feet-color']">
-                <label :for="optionValue.code">{{ optionValue.value }}</label>
-              </div>
+              <template v-if="option.code.includes(code + '-color')">
+                <div class="Form__input Form__input--grid3">
+                  <div class="RadioButton"
+                       v-for="(optionValue, index) in option.values"
+                       :key="index">
+                    <input class="RadioButton__input"
+                           type="radio" 
+                           :id="optionValue.code" 
+                           :value="optionValue.code" 
+                           v-model="formOptions[code + '-color']">
+                    <span class="RadioButton__color"
+                          :class="'RadioButton__color--' + optionValue.value.replace(' ', '')"></span>
+                    <label class="RadioButton__label"
+                           :for="optionValue.code">{{ optionValue.value }}</label>
+                  </div>
+                </div>
+              </template>
+              <template v-if="option.code.includes(code + '-feet-form')">
+                <span class="Form__info"><i class="fa fa-info-circle"></i>Les pieds mesurent 12 cm de hauteur</span>
+                <div class="Form__input Form__input--grid2">
+                  <div class="RadioButton RadioButton--square"
+                       v-for="(optionValue, index) in option.values"
+                       :key="index">
+                    <input class="RadioButton__input"
+                           type="radio" 
+                           :id="optionValue.code" 
+                           :value="optionValue.code" 
+                           v-model="formOptions[code + '-feet-form']">
+                    <img class="RadioButton__image"
+                         :src="getImageOption(optionValue)" />
+                    <label class="RadioButton__label"
+                           :for="optionValue.code">{{ optionValue.value }}</label>
+                  </div>
+                </div>
+              </template>
+              <template v-if="option.code.includes(code + '-feet-color')">
+                <div class="Form__input Form__input--grid3">
+                  <div class="RadioButton"
+                       v-for="(optionValue, index) in option.values"
+                       :key="index">
+                    <input class="RadioButton__input"
+                           type="radio" 
+                           :id="optionValue.code" 
+                           :value="optionValue.code" 
+                           v-model="formOptions[code + '-feet-color']">
+                    <img class="RadioButton__image"
+                         :src="getImageOption(optionValue)" />
+                    <label class="RadioButton__label"
+                           :for="optionValue.code">{{ optionValue.value }}</label>
+                  </div>
+                </div>
+              </template>
             </div>
           </template>
-          <input type="submit"
-                 value="Submit">
+          <span class="Form__price">{{productVariantPrice}}</span>
+          <input class="Form__submit" 
+                 type="submit"
+                 value="Ajouter au panier">
         </form>
       </div>
     </section>
@@ -77,6 +107,7 @@ export default {
   data: function () {
     return {
       product: null,
+      productVariant: null,
       formOptions: null
     }
   },
@@ -91,6 +122,11 @@ export default {
   mounted () {
     this.getHomeData ();
   },
+  computed: {
+    productVariantPrice () {
+      return this.productVariant && this.productVariant.price ? this.productVariant.price + ' €' : '';
+    }
+  },
   methods: {
     getHomeData () {
        this.$http
@@ -104,7 +140,6 @@ export default {
         });
     },
     initFormOptions () {
-      console.log('this.code', this.code);
       this.formOptions = {
         [this.code + '-size']: this.product.options.find(option => option.code.includes('size')).defaultOptionValue,
         [this.code + '-color']: this.product.options.find(option => option.code.includes('color')).defaultOptionValue,
@@ -119,9 +154,13 @@ export default {
     },
     addToCart () {
       if (this.productVariant && this.productVariant.code) {
+        window.alert('Ajout au panier : ' + this.productVariant.name +' => { code : ' + this.productVariant.code + '}')
         this.$http.post('./data/api.json', { code : this.productVariant.code})
             .then(response => console.log('panier maj', response));
       }
+    },
+    getImageOption (option) {
+      return '/images/' + option.code + (option.code.includes(this.code + '-feet-form') ? '.jpeg' : '.png');
     }
   }
 }
@@ -129,6 +168,7 @@ export default {
 
 <style lang="scss" scoped>
 .Home {
+  margin: 20px 0 150px;
 
   &__section {
     display: flex;
@@ -138,6 +178,7 @@ export default {
   }
 
   &__view {
+    flex: 2 1 0;
 
     &Image {
       width: 100%;
@@ -145,8 +186,45 @@ export default {
   }
 
   &__content {
-    min-width: 30%;
+    flex: 1 1 0;
+    margin: 0 10px;
+    height: 100vh;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-size: 26px;
+  }
+
+  &__description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    background-color: $color-grey1;
+    color: $color-dark-blue;
+    font-size: 10px;
+    padding: 15px 25px;
+
+    &Item {
+      text-align: left;
+    }
+  }
+
+  &__subtitle {
+    border-top: 1px solid $color-black;
+    padding: 20px 0;
+    color: $color-dark-blue;
+    font-size: 18px;
+  }
 }
 </style>

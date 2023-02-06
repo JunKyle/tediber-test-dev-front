@@ -1,0 +1,88 @@
+.RadioButton {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+	
+	&__input {
+		width: 30px;
+	    height: 30px;
+	    position: absolute;
+	    appearance: none;
+	}
+
+	&__color {
+		background-color: $color-black;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		border: 3px solid $color-white;
+
+		.RadioButton__input:checked + & {
+			border: 3px solid $color-dark-blue;
+		}
+
+		&--Ecru {
+			background-color: $color-ecru;
+		}
+
+		&--GrisNuage {
+			background-color: $color-cloud-grey;
+		}
+
+		&--BleuProfond {
+			background-color: $color-deep-blue;
+		}
+
+		&--Vertsauge {
+			background-color: $color-sage-green;
+		}
+
+		&--Vertkaki {
+			background-color: $color-kaki-green;
+		}
+
+		&--Terracotta {
+			background-color: $color-terracotta;
+		}
+	}
+
+	&__image {
+		background-color: $color-black;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		border: 3px solid $color-white;	
+
+		.RadioButton__input:checked + & {
+			border: 3px solid $color-dark-blue;
+		}
+	}
+
+	&__label {
+		font-size: 10px;
+		color: $color-dark-blue;
+	}
+
+	&--square {
+
+		.RadioButton__image {
+			background-color: $color-grey1;
+			border-radius: 10%;
+		    width: 100%;
+		    height: 100%;
+		}
+
+		.RadioButton__label {
+			background-color: $color-white;
+			padding: 0 15px;
+		    position: absolute;
+		    bottom: -5px;
+		}
+
+		.RadioButton__input {
+		    width: 100%;
+		    height: 100%;			
+		}
+	}
+}

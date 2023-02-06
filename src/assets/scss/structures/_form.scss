@@ -1,0 +1,91 @@
+.Form {
+	
+	&__title {
+		display: flex;
+	    justify-content: flex-start;
+	    flex-direction: row;
+	    align-items: center;
+
+		&Number {
+			border-radius: 50px;
+			width: 15px;
+			height: 15px;
+			color: $color-white;
+			background-color: $color-dark-blue;
+			font-size: 8px;
+			line-height: 16px;
+		}
+
+		&Label {
+			color: $color-dark-blue;
+			margin: 0;
+		    font-size: 12px;
+		    font-weight: 100;
+		    text-transform: uppercase;
+		    padding-left: 7px;
+		}
+	}
+
+	&__input {
+		border-left: 1px solid $color-dark-blue;    
+		margin: 0 7px;
+		padding: 15px;
+
+		select {
+			width: 100%;
+			height: 30px;
+		}
+
+		&--grid2 {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 5px;
+			grid-row-gap: 15px;
+		}
+
+		&--grid3 {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 0px;
+			grid-row-gap: 15px;
+		}
+	}
+
+	&__submit {
+		background-color: $color-yellow;
+		width: 100%;
+		color: $color-white;
+		font-size: 12px;
+    	line-height: 30px;
+    	text-transform: uppercase;
+    	border: none;
+    	margin-top: 15px;
+
+    	&:hover {
+    		cursor: pointer;
+    	}
+	}
+
+	&__price {
+		border-top: 1px solid $color-dark-blue; 
+		color: $color-dark-blue;
+	    font-size: 18px;
+		width: 100%;
+		display: block;
+    	margin: 15px 0;
+    	padding-top: 15px;
+	}
+
+	&__info {
+		font-size: 10px;
+		color: $color-dark-blue;
+		display: block;
+		text-align: left;
+    	margin-left: 22px;
+    	margin-top: 3px;
+
+    	.fa {
+    		padding-right: 3px;
+    	}
+	}
+}

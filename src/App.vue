@@ -1,16 +1,22 @@
 <template>
   <div id="app">
+    <Header />
     <Home :code="'sofa-simple'"/>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 import Home from './pages/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    Home,
+    Header,
+    Footer
   }
 }
 </script>
@@ -22,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
